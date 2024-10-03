@@ -1,0 +1,25 @@
+.skills {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 250px;
+}
+.skills p {
+  margin-right: 2px;
+  display: flex;
+  justify-content: space-around;
+}
+.box-1 {
+  flex: 4;
+  background-color: #a2d2ff;
+  border: 1px solid black;
+  color: white;
+  height: 20px;
+}
+
+.box-2 {
+  flex: 1;
+  border: 1px solid black;
+  color: black;
+  height: 20px;
+}
