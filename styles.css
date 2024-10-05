@@ -23,3 +23,29 @@
   color: black;
   height: 20px;
 }
+#contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.foot {
+  display: flex;
+  justify-content: space-around;
+}
+
+#contact img {
+  position: relative;
+  top: 0px;
+}
+h4 {
+  width: 69%;
+}
+nav {
+  position: relative;
+  bottom: 120px;
+}
+#container {
+  position: relative;
+  top: 120px;
+}
