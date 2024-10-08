@@ -58,3 +58,74 @@ hr {
 
   margin-left: 20px;
 }
+footer {
+  background-color: #335c67;
+  text-align: center;
+  padding: 100px;
+}
+form {
+  padding: 10px;
+  margin: 20px;
+  width: 100%;
+}
+input[type="text"],
+input[type="email"] {
+  margin-bottom: 20px;
+  width: 30%;
+  height: 40px;
+  padding: 10px;
+}
+button {
+  width: 15%;
+  height: 50px;
+  padding: 16px;
+  padding-top: 20px;
+  margin-top: 22px;
+  background-color: #a2d2ff;
+  border-color: #a2d2ff;
+  border-radius: 5px;
+  color: black;
+  font-size: 18px;
+}
+textarea {
+  width: 25%;
+  height: 200px;
+  margin-right: 70px;
+  margin-top: 50px;
+  padding: 20px;
+}
+#lab {
+  position: relative;
+  bottom: 180px;
+}
+#contact a {
+  margin: 7%;
+  text-align: end;
+  color: wheat;
+}
+footer h3 {
+  color: wheat;
+}
+input {
+  border: none;
+}
+.radios {
+  margin-right: 250px;
+  margin-top: 20px;
+}
+label {
+  color: white;
+}
+#contact img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+  left: 6%;
+  top: 10px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: row;
+}
