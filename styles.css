@@ -1,5 +1,30 @@
-.header {
-  display: flex;
-  justify-self: center;
-  align-items: center;
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  padding: 0px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+header {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/Hero\ image.jpg) no-repeat center;
+
+  background-size: cover;
+  background-origin: content-box;
+  width: 100%;
+  margin: 0;
+  position: sticky;
+}
+
+hr {
+  border: 2px solid black;
+}
+#summary {
+  height: 10%;
 }
