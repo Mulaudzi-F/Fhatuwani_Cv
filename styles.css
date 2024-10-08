@@ -10,34 +10,33 @@ body {
   overflow-x: hidden;
   font-family: "Roboto Slab", serif;
 }
+main {
+  margin: 40px;
+}
+
+h2,
+h4 {
+  background-color: #83c5be;
+  width: 30%;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: #83c5be;
+}
 img {
   max-width: 100%;
   height: auto;
 }
-header {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/images/Hero\ image.jpg) no-repeat center;
-
-  background-size: cover;
-  background-origin: content-box;
-  width: 100%;
-  margin: 0;
-  position: sticky;
+.header {
+  text-align: center;
 }
-
 hr {
-  border: 2px solid black;
+  border: 1px solid black;
 }
 #summary {
   height: 10%;
 }
 #education {
   margin: 10px;
-}
-#exprience {
-  position: relative;
-  bottom: 390px;
 }
 
 #exprience span,
@@ -49,8 +48,6 @@ hr {
   grid-template-columns: 1fr 1fr;
   height: 15%;
   column-gap: 20px;
-  position: relative;
-  bottom: 280px;
 }
 
 .bar {
@@ -58,7 +55,6 @@ hr {
   display: inline-block;
   background-color: yellow;
   border: 2px solid yellow;
-  height: 0;
 
   margin-left: 20px;
 }
@@ -160,4 +156,12 @@ label {
   border: 1px solid black;
   color: black;
   height: 20px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+}
+.foot {
+  display: flex;
+  justify-content: space-around;
 }
