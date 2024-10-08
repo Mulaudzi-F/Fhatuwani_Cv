@@ -5,6 +5,10 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
   padding: 0px;
+  background-color: #cccccc;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: "Roboto Slab", serif;
 }
 img {
   max-width: 100%;
