@@ -164,3 +164,9 @@ section {
   display: flex;
   justify-content: space-around;
 }
+
+#footer_h2 {
+  padding: 0;
+  margin-left: 20px;
+  color: red;
+}
