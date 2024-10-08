@@ -122,7 +122,6 @@ label {
   border-radius: 50%;
   position: relative;
   left: 6%;
-  top: 10px;
 }
 
 #contact {
@@ -145,7 +144,7 @@ label {
 }
 .box-1 {
   flex: 4;
-  background-color: #a2d2ff;
+  background-color: #83c5be;
   border: 1px solid black;
   color: white;
   height: 20px;
