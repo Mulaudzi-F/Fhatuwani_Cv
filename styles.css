@@ -10,6 +10,21 @@ body {
   overflow-x: hidden;
   font-family: "Roboto Slab", serif;
 }
+.nav_menu {
+  margin-right: 20px;
+  background-color: red;
+  display: flex;
+  justify-content: flex-end;
+}
+nav ul {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+}
+li {
+  list-style-type: none;
+  margin: 10px;
+}
 main {
   margin: 40px;
 }
