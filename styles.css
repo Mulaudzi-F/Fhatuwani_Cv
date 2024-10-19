@@ -47,6 +47,7 @@ h4 {
   border-radius: 2px;
   box-shadow: #83c5be;
 }
+
 img {
   max-width: 100%;
   height: auto;
@@ -59,9 +60,6 @@ hr {
 }
 #summary {
   height: 10%;
-}
-#education {
-  margin: 10px;
 }
 
 #exprience span,
@@ -191,7 +189,5 @@ section {
 }
 
 #footer_h2 {
-  padding: 0;
-  margin-left: 20px;
-  color: red;
+  margin-left: 40px;
 }
