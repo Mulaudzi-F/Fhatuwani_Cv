@@ -24,6 +24,16 @@ nav ul {
 li {
   list-style-type: none;
   margin: 10px;
+  background-color: #83c5be;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  padding: 6px;
+}
+a {
+  color: #0c1821;
+}
+a:hover {
+  color: #ffa500;
 }
 main {
   margin: 40px;
