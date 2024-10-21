@@ -13,7 +13,7 @@ body {
 .nav_menu {
   margin-right: 20px;
   background-color: red;
-  display: flex;
+  display: none; */put back flex when you want it to show */
   justify-content: flex-end;
 }
 nav ul {
